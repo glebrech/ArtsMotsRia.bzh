@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header{
+    background-color: beige;
+}
+
+#presentation {
+    background-color: blue;
+}
+
+#programmation{
+    background-color: beige;
+}
+
+#apropos{
+    background-color: brown;
+}
+
+#contact{
+    background-color: beige;
+}
+
+#RS{
+    background-color: blue;
+}
+
+#mentions{
+    background-color: black;
+}
