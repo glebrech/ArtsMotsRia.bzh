@@ -1,33 +1,143 @@
 body{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    
 }
 
 header{
-    background-color: beige;
+    background-color: #e6dac8;
+    color: #582900;
+    display: flex;
+    align-items: center;
+
 }
+
+
+
+nav{
+    flex-grow: 1 ;
+    
+}
+.nav{
+    justify-content: space-around;
+}
+
+section{
+    display: flex;
+
+}
+
+h2 {
+    color: #03224c;
+}
+
+
+
+ul {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color:#582900;
+    
+
+   }
+
+
+
+
+
+
+
+
+
+
 
 #presentation {
-    background-color: blue;
+    background-color: #03224c;
+    color: #e6dac8;
+    
 }
+
+.imgpresentation{
+    width: 45%;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+
+.blocpresentation{
+    text-align: justify;
+    width: 70%;
+    margin: auto; 
+    padding : 2%;
+    padding-right: 20%;
+   }
+
+
+
+
+
+
+
 
 #programmation{
-    background-color: beige;
+    background-color: #e6dac8;
+    flex-direction: column;
 }
+
+.jour{
+}
+
+.blocprogrammation{
+ width: 25%;
+}
+
+
+
+
+
 
 #apropos{
-    background-color: brown;
+    background-color: #582900;
 }
+
+
+
+
+
+
+
 
 #contact{
-    background-color: beige;
+    background-color: #e6dac8;
 }
 
+
+
+
+
+
+
+
+
+
 #RS{
-    background-color: blue;
+    background-color: #03224c;
 }
+
+
+
+
+
+
+
 
 #mentions{
     background-color: black;
 }
+
+
+
+
+
+
+
