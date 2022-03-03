@@ -1,5 +1,7 @@
 body{
+    height: 100vh;
 }
+
 
 header{
     background-color: #e6dac8;
@@ -62,12 +64,13 @@ ul {
 
     padding-left: 15%;
     padding-top: 2%;
+    padding-bottom: 2%;
    
 }
 
 .blocpresentation{
     text-align: justify;
-    width: 50%;
+    max-width: 1200px;
     margin: auto; 
     padding : 2%;
     padding-right: 20%;
@@ -102,7 +105,6 @@ ul {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    width: 75%;
     margin: auto;
     align-items: flex-end;
 }
@@ -156,6 +158,7 @@ ul {
 .imageapropos{
     
       /* margin-right:  180px; */
+      max-width: 100%;
 }
 
 
@@ -167,6 +170,8 @@ ul {
     background-color: #e6dac8;
     justify-content: space-evenly;
     color: #03224c;
+    font-size: small;
+    padding: 5%;
 }
 
 
@@ -174,6 +179,10 @@ ul {
     color:#582900;
 }
 
+.bloccontact{
+    font-size: large;
+    
+}
 
 
 
@@ -185,8 +194,9 @@ ul {
     color: #e6dac8;
 }
 
-
-
+.imgsuivre{
+    max-width: 100%;
+}
 
 
 
