@@ -1,3 +1,25 @@
+@font-face {
+    font-family: Louis;
+    src: url(polices/Louis_George_Cafe.ttf);
+  }
+
+  @font-face {
+    font-family: Apple;
+    src: url(polices/Apple_Chancery.ttf);
+  }
+
+  p{
+      font-family: Louis;
+  }
+
+  h1,h2,nav{
+      font-family: Apple;
+  }
+
+nav{
+    font-size: x-large;
+}
+
 body{
     height: 100vh;
 }
@@ -147,6 +169,7 @@ ul {
     background-color: #582900;
     justify-content: space-evenly;
     padding: 20px;
+    flex-wrap: wrap;
 }
 .blocapropos{
     text-align: justify;
@@ -180,7 +203,8 @@ ul {
 }
 
 .bloccontact{
-    font-size: large;
+    font-size: x-large;
+    color: #582900;
     
 }
 
@@ -192,6 +216,13 @@ ul {
 #RS{
     background-color: #03224c;
     color: #e6dac8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    flex-wrap: wrap;
+    font-size: x-large;
+    
 }
 
 .imgsuivre{
@@ -205,6 +236,8 @@ ul {
 #mentions{
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 1%;
 }
 
 
